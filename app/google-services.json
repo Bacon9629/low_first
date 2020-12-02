@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "985277247709",
+    "firebase_url": "https://law-work-873bc.firebaseio.com",
+    "project_id": "law-work-873bc",
+    "storage_bucket": "law-work-873bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985277247709:android:4a660454c4328929252b34",
+        "android_client_info": {
+          "package_name": "com.bacon.low_work"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985277247709-0u26javlg0063u0el4qtnmhgcd9d63ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bacon.low_work",
+            "certificate_hash": "0b554c149cbaf973cbebdc138bd2ac58d5d157dd"
+          }
+        },
+        {
+          "client_id": "985277247709-is0e4d28t75664q8ufio5v5h8ul5gchv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyKRavF8KKxliHZ3TR3aYa5A4aGF-inQM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985277247709-is0e4d28t75664q8ufio5v5h8ul5gchv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

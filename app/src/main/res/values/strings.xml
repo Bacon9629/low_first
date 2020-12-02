@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">法律小遊戲</string>
+
+    <string-array name="court_name">
+
+        <item>法官</item>
+        <item>檢察官</item>
+        <item>自訴人</item>
+        <item>辯護人</item>
+        <item>被告人</item>
+        <item>證人</item>
+        <item>書記官</item>
+        <item>應訊台</item>
+        <item>被害人</item>
+
+    </string-array>
+
+</resources>

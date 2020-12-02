@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="14dp"
+        android:text="=========================================================================="
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"
+        app:layout_constraintVertical_bias="0.2" />
+
+    <TextView
+        android:id="@+id/sit1"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="法官"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <TextView
+        android:id="@+id/sit_down_left"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="證人"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/sit_down_right"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="被害人"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/sit2"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="書記官"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.31" />
+
+    <TextView
+        android:id="@+id/sit3"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="應訊台"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/sit_left1"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="辯護人"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/sit_left2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/sit_right1"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="1dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="檢察官"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@id/sit_right2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.85"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.65"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/sit_right2"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="自訴人"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sit_right1"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="@+id/sit_right1"
+        app:layout_constraintTop_toBottomOf="@+id/sit_right1"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/sit_left2"
+        android:layout_width="40dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="1dp"
+        android:background="#4800BCD4"
+        android:gravity="center"
+        android:text="被告人"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/sit_left1"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/sit_left1"
+        app:layout_constraintTop_toBottomOf="@+id/sit_left1" />
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:numColumns="auto_fit"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar2"/>
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:background="#61000000"
+        app:layout_constraintBottom_toTopOf="@+id/sit_left2"
+        app:layout_constraintEnd_toEndOf="@+id/sit_left1"
+        app:layout_constraintStart_toStartOf="@+id/sit_left1"
+        app:layout_constraintTop_toBottomOf="@+id/sit_left1" />
+
+    <TextView
+        android:layout_width="40dp"
+        android:layout_height="1dp"
+        android:background="#61000000"
+        app:layout_constraintBottom_toTopOf="@+id/sit_right2"
+        app:layout_constraintEnd_toEndOf="@+id/sit_right1"
+        app:layout_constraintStart_toStartOf="@+id/sit_right1"
+        app:layout_constraintTop_toBottomOf="@+id/sit_right1" />
+
+    <Button
+        android:id="@+id/done"
+        style="@android:style/Widget.Material.Light.Button.Borderless.Small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="done"
+        android:text="完成"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageView
+        android:id="@+id/sit1_image"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sit1"
+        app:layout_constraintEnd_toEndOf="@+id/sit1"
+        app:layout_constraintTop_toTopOf="@+id/sit1"
+        app:srcCompat="@drawable/ic_iconfinder_care_it_more_18_1728122" />
+
+    <ImageView
+        android:id="@+id/sit2_image"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sit2"
+        app:layout_constraintStart_toEndOf="@+id/sit2"
+        app:layout_constraintTop_toTopOf="@+id/sit2"
+        app:srcCompat="@drawable/ic_iconfinder_care_it_more_18_1728122" />
+
+    <ImageView
+        android:id="@+id/sit_right1_image"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sit_right1"
+        app:layout_constraintEnd_toStartOf="@+id/sit_right1"
+        app:layout_constraintTop_toTopOf="@+id/sit_right1"
+        app:srcCompat="@drawable/ic_iconfinder_care_it_more_18_1728122" />
+
+    <ImageView
+        android:id="@+id/sit_left1_image"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="@+id/sit_left1"
+        app:layout_constraintStart_toEndOf="@+id/sit_left1"
+        app:layout_constraintTop_toTopOf="@+id/sit_left1"
+        app:srcCompat="@drawable/ic_iconfinder_care_it_more_18_1728122" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
