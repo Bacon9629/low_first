@@ -49,6 +49,8 @@ public class PositionCourt extends AppCompatActivity {
 
         setToolBar();
 
+        int a = 0;
+
 
         setGridList();
 
