@@ -422,7 +422,7 @@ class CSV_output_Thread extends Thread {
 
     StringBuilder builder;
     String folder;
-    String filename = "output.csv";
+    String filename = "憲法小遊戲資料.csv";
     Context context;
 
     FileOutputStream stream;
